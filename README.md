@@ -14,6 +14,7 @@ It involves the utilization of GitHub Actions, Docker and Docker Hub for the int
 ### Python and Flask
 
 The application used in this project is a simple web application written in python , built using the Flask web framework.
+
 For the sake of the project, the web address provided in the applocation is 'localhost' for security checks reasons, while in practice the web application would be reached through a reverse proxy, provided by other services.
 
 ### Dockerfile and Docker Hub
