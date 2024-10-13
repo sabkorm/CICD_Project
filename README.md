@@ -14,6 +14,7 @@ It involves the utilization of GitHub Actions, Docker and Docker Hub for the int
 ### Python and Flask
 
 The application used in this project is a simple web application written in python , built using the Flask web framework.
+For the sake of the project, the web address provided in the applocation is 'localhost' for security checks reasons, while in practice the web application would be reached through a reverse proxy, provided by other services.
 
 ### Dockerfile and Docker Hub
 
@@ -72,7 +73,7 @@ Once we have the Argo cluster up and the UI set, the Docker Image hosted on Dock
 - Application Name: flask-app
 - Project: default
 - Sync Policy: Automatic
-- Repository URL: https://github.com/sabkorm/ci_cd_project
+- Repository URL: https://github.com/sabkorm/CICD_Project
 - Revision: master
 - Path: k8s
 - Cluster URL: https://kubernetes.default.svc
